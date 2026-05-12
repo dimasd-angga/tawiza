@@ -14,14 +14,11 @@ env/
 
 # IDE
 .idea/
-.vscode/
 *.code-workspace
 *.sublime-project
 *.sublime-workspace
 
 # Environment variables (NEVER commit secrets)
-.env
-.env.local
 .env.*.local
 
 # Testing
@@ -47,6 +44,7 @@ datasets/
 *.pth
 *.ckpt
 *.safetensors
+temp_auto_push.bat
 *.gguf
 
 # Docker
@@ -96,3 +94,7 @@ output/
 !frontend/data/
 AUDIT.md
 CLAUDE.md
+.gitignore
+branch_structure.json
+config.bat
+node_modules
