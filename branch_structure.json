@@ -1,0 +1,18 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "article/001-dunkerque",
+    "fix/issue-164-write-an-ops-runbook-deploy-rollback-log",
+    "main"
+  ],
+  "parent": {
+    "article/001-dunkerque": "main",
+    "fix/issue-164-write-an-ops-runbook-deploy-rollback-log": "main",
+    "main": null
+  },
+  "order": [
+    "main",
+    "article/001-dunkerque",
+    "fix/issue-164-write-an-ops-runbook-deploy-rollback-log"
+  ]
+}
